@@ -1,0 +1,142 @@
+# Copyright (C) 2026 MD Arif Islam
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Country Blocker 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simple-country-blocker\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-12T12:43:31+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: simple-country-blocker\n"
+
+#. Plugin Name of the plugin
+#: simple-country-blocker.php
+msgid "Simple Country Blocker"
+msgstr ""
+
+#. Description of the plugin
+#: simple-country-blocker.php
+msgid "Restricts access to your website based on selected countries."
+msgstr ""
+
+#. Author of the plugin
+#: simple-country-blocker.php
+msgid "MD Arif Islam"
+msgstr ""
+
+#. Author URI of the plugin
+#: simple-country-blocker.php
+msgid "https://arifislam.me"
+msgstr ""
+
+#: admin/ip-test.php:7
+#: admin/settings.php:7
+msgid "Access denied"
+msgstr ""
+
+#: admin/ip-test.php:19
+msgid "Your session has expired. Please reload the page and try again."
+msgstr ""
+
+#: admin/ip-test.php:31
+msgid "IP"
+msgstr ""
+
+#: admin/ip-test.php:32
+msgid "City"
+msgstr ""
+
+#: admin/ip-test.php:33
+msgid "Region"
+msgstr ""
+
+#: admin/ip-test.php:34
+msgid "Country"
+msgstr ""
+
+#: admin/ip-test.php:35
+msgid "Location"
+msgstr ""
+
+#: admin/ip-test.php:36
+msgid "Organization"
+msgstr ""
+
+#: admin/ip-test.php:40
+msgid "Test IP Address"
+msgstr ""
+
+#: admin/ip-test.php:41
+msgid "Your IP Details:"
+msgstr ""
+
+#: admin/ip-test.php:55
+msgid "Test Another IP Address:"
+msgstr ""
+
+#: admin/ip-test.php:63
+msgid "IP Address"
+msgstr ""
+
+#: admin/ip-test.php:69
+msgid "Test IP"
+msgstr ""
+
+#: admin/ip-test.php:73
+msgid "Lookup Results:"
+msgstr ""
+
+#: admin/settings.php:14
+msgid "Country Blocker Settings"
+msgstr ""
+
+#: admin/settings.php:16
+msgid "Your server reports a private or invalid visitor IP. Country blocking cannot identify this connection. If your site uses a proxy, configure your web server to restore visitor IPs from trusted proxies."
+msgstr ""
+
+#: admin/settings.php:22
+#: admin/settings.php:26
+msgid "Blocked Countries"
+msgstr ""
+
+#. translators: %d: Total number of countries and territories
+#: admin/settings.php:42
+#, php-format
+msgid "Total countries and territories: %d"
+msgstr ""
+
+#: block-page-template.php:11
+#: block-page-template.php:17
+msgid "Access Restricted"
+msgstr ""
+
+#: block-page-template.php:18
+msgid "Access to this website is restricted from your country."
+msgstr ""
+
+#. translators: %s: URL to IPinfo privacy policy
+#: simple-country-blocker.php:73
+#, php-format
+msgid "This site uses the Simple Country Blocker plugin to restrict access from specified countries. When a visitor requests a page on this website, their IP address is sent to IPinfo (%s) to determine their geographic country. Successful lookups are cached locally in temporary transients for up to 12 hours. IP lookups are performed solely for geographic access control and site security."
+msgstr ""
+
+#: simple-country-blocker.php:131
+msgid "Enter a valid public IP address."
+msgstr ""
+
+#: simple-country-blocker.php:145
+msgid "Could not reach IPinfo. Please try again later."
+msgstr ""
+
+#: simple-country-blocker.php:148
+msgid "IPinfo returned an unsuccessful response. Please try again later."
+msgstr ""
+
+#: simple-country-blocker.php:153
+msgid "IPinfo did not return a valid country for this IP."
+msgstr ""
